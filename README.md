@@ -5,6 +5,7 @@ A 2D game framework using Gosu with Ruby.
 ## Dependencies
 
 * [Gosu](https://www.libgosu.org/)
+* [Git](http://git-scm.com/)
 
 ## Installation
 

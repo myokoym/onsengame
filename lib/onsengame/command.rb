@@ -23,7 +23,7 @@ module Onsengame
 
       onsengame_dir = File.expand_path("../../..", __FILE__)
       paths = Dir.glob("#{onsengame_dir}/*")
-      paths << ".gitignore"
+      paths << File.join(onsengame_dir, ".gitignore")
       paths.each do |path_from|
         FileUtils.mkdir_p(name)
         path_to = File.join(name, File.basename(path_from))

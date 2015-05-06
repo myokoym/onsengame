@@ -10,6 +10,10 @@ A 2D game framework using Gosu with Ruby.
 
     $ gem install onsengame
 
+## Usage
+
+    $ onsengame generate PROJECT_NAME
+
 ## License
 
 MIT License. See LICENSE.txt for details.

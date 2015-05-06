@@ -13,6 +13,8 @@ A 2D game framework using Gosu with Ruby.
 ## Usage
 
     $ onsengame generate PROJECT_NAME
+    $ cd PROJECT_NAME
+    $ bin/PROJECT_NAME
 
 ## License
 

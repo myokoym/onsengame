@@ -1,0 +1,5 @@
+require "onsengame/window"
+require "onsengame/object"
+require "onsengame/scene"
+require "onsengame/version"
+require "onsengame/z_order"

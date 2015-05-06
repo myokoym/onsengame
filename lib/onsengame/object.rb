@@ -1,0 +1,1 @@
+require "onsengame/object/base"

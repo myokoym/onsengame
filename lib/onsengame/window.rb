@@ -46,5 +46,20 @@ module Onsengame
                 x1, y2, color,
                 z_order)
     end
+
+    def draw_rectangle_outline(x1, y1, x2, y2, color, z_order)
+      draw_line(x1, y1, color,
+                x2, y1, color,
+                z_order)
+      draw_line(x1, y1, color,
+                x1, y2, color,
+                z_order)
+      draw_line(x1, y2, color,
+                x2, y2, color,
+                z_order)
+      draw_line(x2, y1, color,
+                x2, y2, color,
+                z_order)
+    end
   end
 end

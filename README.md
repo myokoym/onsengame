@@ -19,7 +19,16 @@ A 2D game framework using Gosu with Ruby.
 
 ## License
 
+### Source Code
+
 MIT License. See LICENSE.txt for details.
+
+### Fonts
+
+#### Press Start 2P
+
+SIL Open Font License, Version 1.1.
+See data/fonts/licenses/PressStart2P/LICENSE.txt for details.
 
 ## Contributing
 

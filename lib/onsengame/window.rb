@@ -38,5 +38,13 @@ module Onsengame
     def current_scene
       @scenes[0]
     end
+
+    def draw_rectangle(x1, y1, x2, y2, color, z_order)
+      draw_quad(x1, y1, color,
+                x2, y1, color,
+                x2, y2, color,
+                x1, y2, color,
+                z_order)
+    end
   end
 end

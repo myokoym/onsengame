@@ -35,7 +35,6 @@ module Onsengame
       end
     end
 
-    private
     def current_scene
       @scenes[0]
     end

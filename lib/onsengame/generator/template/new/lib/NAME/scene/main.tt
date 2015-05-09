@@ -1,9 +1,28 @@
-require "onsengame/scene/main"
-require "<%= name %>/scene/base"
+require "<%= name %>/scene"
 
 module <%= name.capitalize %>
   module Scene
-    class Main < Onsengame::Scene::Main
+    class Main
+      include Base
+
+      def initialize(window)
+        super
+      end
+
+      def update
+        super
+      end
+
+      def draw
+        super
+      end
+
+      def button_down(id)
+        case id
+        when Gosu::KbQ
+          @window.scenes.shift
+        end
+      end
     end
   end
 end

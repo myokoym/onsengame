@@ -1,10 +1,15 @@
 require "onsengame/scene/title"
-require "<%= name %>/scene/base"
-require "<%= name %>/scene/main"
+require "<%= name %>/scene"
 
 module <%= name.capitalize %>
   module Scene
     class Title < Onsengame::Scene::Title
+      def button_down(id)
+        case id
+        when Gosu::KbReturn
+          @window.scenes.unshift(Main.new(@window))
+        end
+      end
     end
   end
 end

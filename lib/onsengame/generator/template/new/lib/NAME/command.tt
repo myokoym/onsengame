@@ -1,6 +1,18 @@
-require "onsengame/command"
+require "thor"
+require "<%= name %>"
 
 module <%= name.capitalize %>
-  class Command < Onsengame::Command
+  class Command < Thor
+    desc "version", "Show version"
+    def version
+      puts(VERSION)
+    end
+
+    desc "start [OPTIONS]", "Run game"
+    option :fullscreen, type: :boolean
+    def start
+      @window = Window.new(options.dup)
+      @window.show
+    end
   end
 end

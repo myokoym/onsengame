@@ -3,5 +3,11 @@ require "<%= name %>/scene"
 
 module <%= name.capitalize %>
   class Window < Onsengame::Window
+    def initialize(options={})
+      super
+      self.caption = "<%= name.capitalize %>"
+      @scenes = []
+      @scenes << Scene::Title.new(self)
+    end
   end
 end

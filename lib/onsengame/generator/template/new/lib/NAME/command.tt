@@ -1,0 +1,6 @@
+require "onsengame/command"
+
+module <%= name.capitalize %>
+  class Command < Onsengame::Command
+  end
+end

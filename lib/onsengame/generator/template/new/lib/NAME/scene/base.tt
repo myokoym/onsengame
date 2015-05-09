@@ -1,0 +1,9 @@
+require "onsengame/scene/base"
+
+module <%= name.capitalize %>
+  module Scene
+    module Base
+      include Onsengame::Scene::Base
+    end
+  end
+end

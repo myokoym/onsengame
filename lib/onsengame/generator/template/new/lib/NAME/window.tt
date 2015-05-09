@@ -1,0 +1,7 @@
+require "onsengame/window"
+require "<%= name %>/scene"
+
+module <%= name.capitalize %>
+  class Window < Onsengame::Window
+  end
+end

@@ -1,0 +1,10 @@
+require "onsengame/scene/title"
+require "<%= name %>/scene/base"
+require "<%= name %>/scene/main"
+
+module <%= name.capitalize %>
+  module Scene
+    class Title < Onsengame::Scene::Title
+    end
+  end
+end

@@ -1,0 +1,5 @@
+require "<%= name %>/window"
+require "<%= name %>/object"
+require "<%= name %>/scene"
+require "<%= name %>/version"
+require "<%= name %>/z_order"

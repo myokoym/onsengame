@@ -1,0 +1,21 @@
+# <%= name.capitalize %> [![Gem Version](https://badge.fury.io/rb/<%= name %>.svg)](http://badge.fury.io/rb/<%= name %>)
+
+TODO: Describe your game
+
+## Dependencies
+
+* [Gosu](https://www.libgosu.org/)
+
+## Usage
+
+### Production commands
+
+    $ bin/<%= name %>
+
+### Development commands
+
+    $ rake help
+
+## License
+
+MIT License. See LICENSE.txt for details.
